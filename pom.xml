@@ -10,6 +10,7 @@
     <modules>
         <module>models</module>
         <module>service</module>
+        <module>servlet</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -27,8 +28,12 @@
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
+
+
         </dependencies>
     </dependencyManagement>
+
+
 
 
 </project>
